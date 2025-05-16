@@ -1,0 +1,50 @@
+{
+    "name": "x-multibyte/landing",
+    "type": "libary",
+    "description": "Laravel package description",
+    "version": "1.0.0",
+    "keywords": [
+        "laravel",
+        "laravel-package"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roy",
+            "email": "roy@xmultibyte.com",
+            "homepage": "https://github.com/x-multibyte",
+            "role": "Developer"
+        },
+        {
+            "name": "Roy",
+            "email": "roy@xmultibyte.com",
+            "homepage": "https://github.com/x-multibyte",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "illuminate/framework": "^10.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "orchestra/testbench": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "XMultibyte\\Landing\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "XMultibyte\\Landing\\LandingServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false
+}
